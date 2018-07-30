@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: 'Cinzel', serif;
-  font-size: 12px;
+  font-family: 'Eczar', serif;
+  font-size: 15px;
   font-weight: 400; 
   line-height: 1.5; 
   background-image: url("background.jpg");
@@ -34,17 +34,16 @@ a {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-image: url("background/jpg.");
- display: flex;
+  display: flex;
   align-items: center;   
 }
 
 .middle-box {
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 45%; 
   height: 40%;
-  padding: 20px;
+  padding: 5%;
   background: rgba(7, 21, 8, 0.8)
 }
 
@@ -69,7 +68,7 @@ img {
 
 .content {
   float: left;
-  width: 52%; /* tutaj może lepiej wrócić do setki? */
+  width: 52%; 
   height: 92%;  
   padding: 4%;
   text-align: left;  
@@ -77,23 +76,24 @@ img {
 
 .nav {
   display: flex; 
-  margin-top: 5px;     
+  height: 40px;
+
 }
 
 .nav-item {
   transition: all 0.3s ease-in-out; 
-  padding:5px;
-  width:30px;
-  height: 30px;
-  margin: 5px; 
+  
+  width:40px;
+  height: 40px;
+  margin-left: 5px; 
+  margin-right: 5px;
   display: flex; 
   align-items: center; 
   justify-content: center; 
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .nav-item:hover {
   cursor: pointer; 
   background-color: rgba(255, 255, 255, 0.175); 
 }
-
